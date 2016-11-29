@@ -1,7 +1,7 @@
 #	Notes About *LaTeX*
 
 
-
+This is my notes about *LaTeX*.
 
 
 
