@@ -44,6 +44,7 @@ clean:
 	rm -rf *.nlo
 	rm -rf *.out
 	rm -rf *.synctex.gz
+	rm -rf *.toc
 
 
 
