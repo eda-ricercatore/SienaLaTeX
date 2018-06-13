@@ -1,32 +1,45 @@
 #	SienaLaTeX
 
 
-A repository for my LaTeX templates.
+A repository for my *LaTeX* templates.
 
-This contains templates for LaTeX documents that I tend to create, LaTeX structures that I tend to use (such as tables, lists, and figures), and LaTeX commands.
+This contains templates for *LaTeX* documents that I tend to create, *LaTeX* structures that I tend to use (such as tables, lists, and figures), and *LaTeX* commands.
 
 
 
 This repository is organized as follows:  
 1)	Documents for this projects that are in the text file format. E.g., [LICENSE.md](https://github.com/eda-globetrotter/SienaLaTeX/blob/master/LICENSE.md) and [README.md.](https://github.com/eda-globetrotter/SienaLaTeX/blob/master/README.md)  
-2)	articoli: A LaTeX template for articles.  
-3)	curriculum_vitae: A LaTeX template for curriculum vitaes and resumes.  
-4)	presentazione: A LaTeX template for creating presentation slides.  
-5)	rapporto: A LaTeX template for reports.  
-6)	scripts: A Ruby script to remove temporary files.  
+2)	articoli: A *LaTeX* template for articles.  
+3)	curriculum_vitae: A *LaTeX* template for curriculum vitaes and resumes.  
+4)	presentazione: A *LaTeX* template for creating presentation slides.  
+5)	rapporto: A *LaTeX* template for reports.  
+6)	scripts: A *Ruby* script to remove temporary files, and *Python* scripts to
+		manage *BibTeX* databases.  
 
-For each subdirectory, a Makefile is provided to typeset the document with LaTeX (and add references, if necessary).
+For each subdirectory, a *Makefile* is provided to typeset the document with *LaTeX* (and add references, if necessary).
 
-Use the Makefile to typeset the LaTeX document.
+Use the *Makefile* to typeset the *LaTeX* document.
 
-To do that, try the following on the command line of a UNIX-like operating system: make latex
+To do that, try the following on the command line of a *UNIX*-like operating system: make latex
 
-If the LaTeX typesetting system is not installed on your computer, you can download it for free from either of the following:
+If the *LaTeX* typesetting system is not installed on your computer, you can download it for free from either of the following:
 * [LaTeX -- A document preparation system](http://www.latex-project.org/)
 * [TeX Live](http://www.tug.org/texlive/)
 * [MacTeX](http://www.tug.org/mactex/)
 * [TeX Users Group (TUG)](http://tug.org/)
 * [Com­pre­hen­sive TeX Archive Net­work (CTAN)](http://www.ctan.org/)
+
+
+
+##	Resources Added By Others
+
++ [Instructions for using *TeXlipse*, which supports *LaTeX* for the *Eclipse* integrated development environment (IDE)](https://github.com/eda-ricercatore/SienaLaTeX/tree/master/instruction_for_texlipse)
++ [Dr. Amir Sohrabi's introduction to *LaTeX*](https://github.com/eda-ricercatore/SienaLaTeX/tree/master/latex_introduction_to)
+
+
+
+
+
 
 
 
