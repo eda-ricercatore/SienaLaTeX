@@ -5,6 +5,23 @@ This is my notes about *LaTeX*.
 
 
 
+##	Typesetting Issues
+
+When I include a *BibTeX* database/file for using *BibTeX* with *LaTeX*, I can
+	either use absolute/full paths or relative paths;
+	that said, I am not allowed to use the shortcut to redirect a path from my
+		home directory.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
