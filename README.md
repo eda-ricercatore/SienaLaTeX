@@ -30,6 +30,11 @@ If the *LaTeX* typesetting system is not installed on your computer, you can dow
 * [Com­pre­hen­sive TeX Archive Net­work (CTAN)](http://www.ctan.org/)
 
 
+##	*LaTeX* Notes
+
+[*LaTeX* Notes](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/latex.md)
+
+
 
 ##	Resources Added By Others
 
