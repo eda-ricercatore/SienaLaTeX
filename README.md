@@ -51,7 +51,7 @@ The SVG picture files are located in the *tex* subdirectory of your
 	repositories.
 Note that the transformed *Markdown* documents contain embedded *HTML* code,
 	which cannot be automatically transformed into a web page using *GitHub*'s
-	automatic *Markdown* to *JavaScript* transformation;
+	automatic *Markdown* to *HTML* transformation;
 	e.g., see the project web page of [*SienaLaTeX*](https://eda-ricercatore.github.io/SienaLaTeX/).
 Hence, such automatically transformed web pages contain *HTML* code snippets
 	that have been embedded into the *HTML*-based web pages.
