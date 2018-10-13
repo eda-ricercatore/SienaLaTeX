@@ -32,7 +32,9 @@ If the *LaTeX* typesetting system is not installed on your computer, you can dow
 
 ##	*LaTeX* Notes
 
-[*LaTeX* Notes](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/latex.md)
+[Zhiyang Ong's *LaTeX* Notes](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/latex.md)
+
+###	Additional Comments
 
 In *Markdown*, you can use *LaTeX* to typeset mathematical equations, such as Maxwell-Faraday equation (Faraday's law of induction): $$\mathbf{\oint_{\partial\sum}\ E \cdot} d\mathbf{l} = -\frac{d}{dt} \iint_{\sum} \mathbf{B} \cdot d\mathbf{S}$$
 
