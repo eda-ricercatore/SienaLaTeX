@@ -32,7 +32,9 @@ If the *LaTeX* typesetting system is not installed on your computer, you can dow
 
 ##	*LaTeX* Notes
 
-[*LaTeX* Notes](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/latex.md)
+[Zhiyang Ong's *LaTeX* Notes](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/latex.md)
+
+###	Additional Comments
 
 In *Markdown*, you can use *LaTeX* to typeset mathematical equations, such as Maxwell-Faraday equation (Faraday's law of induction): <p align="center"><img src="/tex/fae8bb729ecf9e6c89d9eca2c87ef597.svg?invert_in_darkmode&sanitize=true" align=middle width=210.47583314999997pt height=40.39034175pt/></p>
 
