@@ -8,13 +8,14 @@ This contains templates for *LaTeX* documents that I tend to create, *LaTeX* str
 
 
 This repository is organized as follows:  
-1)	Documents for this projects that are in the text file format. E.g., [LICENSE.md](https://github.com/eda-globetrotter/SienaLaTeX/blob/master/LICENSE.md) and [README.md.](https://github.com/eda-globetrotter/SienaLaTeX/blob/master/README.md)  
+1)	Documents for this projects that are in the text file format. E.g., [LICENSE.md](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/LICENSE.md) and [README.md.](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/README.md)  
 2)	articles: A *LaTeX* template for articles.  
 3)	curriculum_vitae: A *LaTeX* template for curriculum vitaes and resumes.  
 4)	presentations: A *LaTeX* template for creating presentation slides.  
 5)	reports: A *LaTeX* template for reports.  
 6)	scripts: A *Ruby* script to remove temporary files, and *Python* scripts to
-		manage *BibTeX* databases.  
+		manage *BibTeX* databases.
+7)	[notes](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/latex.md): Notes that I have written to remind me of certain commonly used *LaTeX* features by myself.
 
 For each subdirectory, a *Makefile* is provided to typeset the document with *LaTeX* (and add references, if necessary).
 
