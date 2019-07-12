@@ -20,6 +20,10 @@ For each subdirectory, a *Makefile* is provided to typeset the document with *La
 
 Use the *Makefile* to typeset the *LaTeX* document.
 
+>	## ⚠️ WARNING: Makefile problems with different 
+>	Don't miss the Call-for-Papers deadlines again.
+>	Ditto for milestone deadlines for research contests.
+
 To do that, try the following on the command line of a *UNIX*-like operating system: make latex
 
 If the *LaTeX* typesetting system is not installed on your computer, you can download it for free from either of the following:

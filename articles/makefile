@@ -16,9 +16,10 @@
 # =============================================================
 	
 #	Definition of macro flags...
-MAINSRC=	articolo
-PDFLATEX=	/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex #pdflatex
-BIBTEX=		bibtex
+MAINSRC=		articles
+PDFLATEX=		/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex
+LATEXSIMPLE=	pdflatex
+BIBTEX=			bibtex
 
 #	=============================================================
 #	Make targets for build automation with Make (using this Makefile).
@@ -39,6 +40,23 @@ latex:
 	@echo
 	@echo	"==		Typeset LaTeX source files for the 3rd time."
 	$(PDFLATEX)		$(MAINSRC)
+
+simple:
+	@echo + + + + + + + + + + + + + + + + + + + + + + + + + + +
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 1st time."
+	$(LATEXSIMPLE)		$(MAINSRC)
+	$(BIBTEX)		$(MAINSRC)
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 2nd time."
+	$(LATEXSIMPLE)		$(MAINSRC)
+	$(BIBTEX)		$(MAINSRC)
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 3rd time."
+	$(LATEXSIMPLE)		$(MAINSRC)
 
 
 clean:
