@@ -16,7 +16,7 @@
 
 % Setup modes and check for article option
 % Also loads packages required by both beamer and beamerarticle
-\RequirePackage{beamerbasemodes}
+\RequirePackage{others/beamerbasemodes}
 
 % For testing PDF versus DVI mode
 \RequirePackage{ifpdf}
