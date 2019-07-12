@@ -14,25 +14,40 @@
 #	Email address: echo "cukj -wb- 23wU4X5M589 TROJANS cqkH wiuz2y 0f Mw Stanford" | awk '{ sub("23wU4X5M589","F.d_c_b. ") sub("Stanford","d0mA1n"); print $5, $2, $8; for (i=1; i<=1; i++) print "6\b"; print $9, $7, $6 }' | sed y/kqcbuHwM62z/gnotrzadqmC/ | tr 'q' ' ' | tr -d [:cntrl:] | tr -d 'ir' | tr y "\n"
 #
 #	=============================================================
-#
 
-
+#	Definition of macro flags...
+MAINSRC=	report
+PDFLATEX=	/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex #pdflatex
+BIBTEX=		bibtex
 
 #	=============================================================
 #	Make targets for build automation with Make (using this Makefile).
 
 latex:
+	@echo + + + + + + + + + + + + + + + + + + + + + + + + + + +
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 1st time."
+	$(PDFLATEX)		$(MAINSRC)
+	$(BIBTEX)		$(MAINSRC)
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 2nd time."
+	$(PDFLATEX)		$(MAINSRC)
+	$(BIBTEX)		$(MAINSRC)
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 3rd time."
+	$(PDFLATEX)		$(MAINSRC)
+
+
+
+pdf:
 	pdflatex	report
 	bibtex		report
 	pdflatex	report
 	bibtex		report
 	pdflatex	report
-
-
-
-
-
-
 
 
 
