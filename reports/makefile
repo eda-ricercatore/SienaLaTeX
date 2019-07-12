@@ -17,7 +17,9 @@
 
 #	Definition of macro flags...
 MAINSRC=	report
-PDFLATEX=	/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex #pdflatex
+CLEANSRC=	report_clean
+PDFLATEX=	/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex
+LATEXLIB=	pdflatex
 BIBTEX=		bibtex
 
 #	=============================================================
@@ -39,6 +41,25 @@ latex:
 	@echo
 	@echo	"==		Typeset LaTeX source files for the 3rd time."
 	$(PDFLATEX)		$(MAINSRC)
+
+
+simple:
+	@echo + + + + + + + + + + + + + + + + + + + + + + + + + + +
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 1st time."
+	$(LATEXLIB)		$(CLEANSRC)
+	$(BIBTEX)		$(CLEANSRC)
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 2nd time."
+	$(LATEXLIB)		$(CLEANSRC)
+	$(BIBTEX)		$(CLEANSRC)
+	@echo
+	@echo
+	@echo	"==		Typeset LaTeX source files for the 3rd time."
+	$(LATEXLIB)		$(CLEANSRC)
+
 
 
 
