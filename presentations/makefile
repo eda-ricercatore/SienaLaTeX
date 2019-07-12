@@ -19,7 +19,6 @@
 
 #	Definition of macro flags...
 MAINSRC=	zhiyang_proj_presentation
-SIMPLELIB=	simple_presentation
 PDFLATEX=	/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex
 PDFSIMPLE=	pdflatex
 BIBTEX=		bibtex
@@ -45,22 +44,7 @@ latex:
 	$(PDFLATEX)		$(MAINSRC)
 
 
-simple:
-	@echo + + + + + + + + + + + + + + + + + + + + + + + + + + +
-	@echo
-	@echo
-	@echo	"==		Typeset LaTeX source files for the 1st time."
-	$(PDFSIMPLE)		$(SIMPLELIB)
-	$(BIBTEX)		$(SIMPLELIB)
-	@echo
-	@echo
-	@echo	"==		Typeset LaTeX source files for the 2nd time."
-	$(PDFSIMPLE)		$(SIMPLELIB)
-	$(BIBTEX)		$(SIMPLELIB)
-	@echo
-	@echo
-	@echo	"==		Typeset LaTeX source files for the 3rd time."
-	$(PDFSIMPLE)		$(SIMPLELIB)
+
 
 
 
