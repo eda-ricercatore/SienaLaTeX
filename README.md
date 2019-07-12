@@ -27,6 +27,8 @@ Use the *Makefile* to typeset the *LaTeX* document.
 
 To do that, try the following on the command line of a *UNIX*-like operating system: make latex
 
+For the *LaTeX* templates for articles and reports, they use *LaTeX* packages that may not be available in some *LaTeX* engines. For *LaTeX* engines without lots of installed packages,  try the following on the command line of a *UNIX*-like operating system: make simple
+
 If the *LaTeX* typesetting system is not installed on your computer, you can download it for free from either of the following:
 * [LaTeX -- A document preparation system](http://www.latex-project.org/)
 * [TeX Live](http://www.tug.org/texlive/)
