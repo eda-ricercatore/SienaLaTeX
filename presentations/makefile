@@ -46,8 +46,13 @@ latex:
 
 clean:
 	rm -rf *.aux
+	rm -rf *.bbl
+	rm -rf *.blg
 	rm -rf *.log
+	rm -rf *.nav
 	rm -rf *.out
+	rm -rf *.snm
+	rm -rf *.toc
 
 
 
