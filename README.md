@@ -20,9 +20,10 @@ For each subdirectory, a *Makefile* is provided to typeset the document with *La
 
 Use the *Makefile* to typeset the *LaTeX* document.
 
->	## ⚠️ WARNING: Makefile problems with different 
->	Don't miss the Call-for-Papers deadlines again.
->	Ditto for milestone deadlines for research contests.
+>	## ⚠️ WARNING: Makefile problems with different LaTeX engines.
+>	Some LaTeX engines don't have a lot of LaTeX packages installed.
+>	Using *pdflatex* to typeset LaTeX documents may produce errors,
+>		if LaTeX packages that are used in the template are not installed.
 
 To do that, try the following on the command line of a *UNIX*-like operating system: make latex
 
