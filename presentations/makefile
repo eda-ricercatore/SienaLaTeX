@@ -44,6 +44,10 @@ latex:
 	$(PDFLATEX)		$(MAINSRC)
 
 
+clean:
+	rm -rf *.aux
+	rm -rf *.log
+	rm -rf *.out
 
 
 
