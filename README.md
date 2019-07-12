@@ -9,10 +9,10 @@ This contains templates for *LaTeX* documents that I tend to create, *LaTeX* str
 
 This repository is organized as follows:  
 1)	Documents for this projects that are in the text file format. E.g., [LICENSE.md](https://github.com/eda-globetrotter/SienaLaTeX/blob/master/LICENSE.md) and [README.md.](https://github.com/eda-globetrotter/SienaLaTeX/blob/master/README.md)  
-2)	articoli: A *LaTeX* template for articles.  
+2)	articles: A *LaTeX* template for articles.  
 3)	curriculum_vitae: A *LaTeX* template for curriculum vitaes and resumes.  
-4)	presentazione: A *LaTeX* template for creating presentation slides.  
-5)	rapporto: A *LaTeX* template for reports.  
+4)	presentations: A *LaTeX* template for creating presentation slides.  
+5)	reports: A *LaTeX* template for reports.  
 6)	scripts: A *Ruby* script to remove temporary files, and *Python* scripts to
 		manage *BibTeX* databases.  
 
