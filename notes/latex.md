@@ -12,16 +12,27 @@ When I include a *BibTeX* database/file for using *BibTeX* with *LaTeX*, I can
 	that said, I am not allowed to use the shortcut to redirect a path from my
 		home directory.
 
+
+
+
+
 ###	In-Text Citations
 
-Regarding in-text citations... What was I thinking???
+For in-text citations, use **\ref{LABEL}** to cross-reference \cite[\S11.2.1-\S11.2.2, pp. 211-212]{Kopka2004} a section, subsection, subsubsection, figure, table, or equation that is labeled with **\label{LABEL}**.
 
 
 
 
 
 
+### Common Colors and Fonts that I Use
 
+Colors and fonts that I use.
++ red
++ blue
++ magenta
++ bold (font)
++ cyan
 
 
 
@@ -48,6 +59,33 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 Web pages for help in *LaTeX*:
 + Templates for optimization, or mathematical programming
 	- [LaTeX Templates for Optimization Models](http://www.orcomplete.com/computer/sertalpbilal/latex-templates-for-optimization-models)
+
+
+
+
+
+computer
+Operations Research Complete, OR-Complete, OR-Complete:Bethlehem, PA
+Harold S. Mohler Laboratory, 208 W Packer Ave, Bethlehem, PA 18015
+
+
+
+
+
+
+
+
+##	Textual Cache
+
+###	Publishers and Addresses that I Commonly Encounter
+
+
+Publishers and addresses that I commonly encounter:
++ IEEE Press: Piscataway, NJ.
++ IEEE Computer Society Press: Los Alamitos, CA.
++ ACM Press: New York, NY.
+
+
 
 
 
