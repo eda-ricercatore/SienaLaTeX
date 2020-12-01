@@ -18,7 +18,9 @@ When I include a *BibTeX* database/file for using *BibTeX* with *LaTeX*, I can
 
 ###	In-Text Citations
 
-For in-text citations, use **\ref{LABEL}** to cross-reference \cite[\S11.2.1-\S11.2.2, pp. 211-212]{Kopka2004} a section, subsection, subsubsection, figure, table, or equation that is labeled with **\label{LABEL}**.
+For in-text citations, use:
++ **\cite{BibTeXkey}** for citing BibTeX entries in my BibTeX database.
++ **\ref{LABEL}** to cross-reference \cite[\S11.2.1-\S11.2.2, pp. 211-212]{Kopka2004} a section, subsection, subsubsection, figure, table, or equation that is labeled with **\label{LABEL}**.
 
 
 
@@ -33,6 +35,42 @@ Colors and fonts that I use.
 + magenta
 + bold (font)
 + cyan
+
+
+
+
+
+###	Common Terms/Symbols that I Get Confused About 
+
+
+
++ DPLL: Davis-Putnam-Logemann-Loveland procedure
++ rules of inference
++ rules of deduction
++ stochastic local search
+
+
+
+Table of common symbols
+
+| Symbol Name | Symbol  |
+|-------------|---------|
+| entails	  | \models |
+| infers/proves/concludes | \vdash |
+| implies	  | \Rightarrow, or \Longrightarrow |
+| conjunction | \land or \bigwedge |
+| disjunction | \lor or \bigvee |
+
+
+
+
+Examples:
++ p \rightarrow q : 
+
+A\lor B is true if {\displaystyle A}A is true, or if {\displaystyle B}B is true, or if both {\displaystyle A}A and {\displaystyle B}B are true.
+A\land B 
+
+
 
 
 
