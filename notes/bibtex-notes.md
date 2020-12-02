@@ -3,6 +3,9 @@
 
 ##	BibTeX Entry Types
 
+From \cite{Kopka2004}, \S12.2.1, pages 230-231, provides a list of BibTeX entry types.
+
+
 
 + ***@article***
 	- Entry for an article from a journal or magazine.
@@ -91,6 +94,9 @@
 ##	BibTeX Fields
 
 
+From \cite{Kopka2004}, \S12.2.2, pages 232-233, provides a list of BibTeX fields.
+
+
 + address
 	- The address of the publisher or other institution. For major publishing houses, it is sufficient to give just the city. For smaller publishers, giving the full address is recommended.
 + annote
@@ -103,9 +109,6 @@
 	- A chapter or section number.
 + crossref
 	- The key of another entry in the database that shares many of the same field entries. See Section 12.2.3.
-
-[comment]: <> (14.2.3 in the PDF copy.)
-
 	- Used for the BibTeX entry type **inproceedings**.
 	- Try to see if this would work for the BibTeX entry types **incollection** and **inbook**.
 + edition
@@ -148,6 +151,11 @@
 	- The year in which the work was published or, if unpublished, in which it was written. It should normally consist of four numerals, such as 1993.
 + Additional field names may be included, which BibTeX will simply ignore. For example, to add the abstract of an article in the database,
 	- abstract = {text of an abstract}
+
+
+[comment]: <> (For crossref, see 14.2.3 in the PDF copy.)
+
+
 
 
 
@@ -232,7 +240,11 @@ From [valerie2017], the appearance of the "References" section/list can vary bet
 
 
 
-**References**:
+#	References
+
+
+
+
 + [Carter2017] Sam "samcarter" Carter, Answer to "What is the Bibtex crossref field used for?," Stack Exchange Inc., New York, NY, November 13, 2017. Available online from {\it Stack Exchange Inc.: Stack Overflow: Questions} at: https://tex.stackexchange.com/questions/401138/what-is-the-bibtex-crossref-field-used-for and https://tex.stackexchange.com/a/401142/201705; December 1, 2020 was the last accessed date.
 + [valerie2017] valerie, Thomas "lockstep" Titz, and Daniel, "when multiple entries crossref the same proceeding, the proceeding details are not printed, but cited!", Stack Exchange Inc., New York, NY, April 13, 2017. Available online from {\it Stack Exchange Inc.: Stack Overflow: Questions} at: https://tex.stackexchange.com/questions/256227/when-multiple-entries-crossref-the-same-proceeding-the-proceeding-details-are-n and https://tex.stackexchange.com/q/256227/201705; December 1, 2020 was the last accessed date.
 + [WikipediaContributors2020] Wikipedia contributors, "BibTeX," in *Wikipedia, The Free Encyclopedia: Bibliography file formats*, Wikimedia Foundation, San Francisco, CA, November 25, 2020. Available online at: https://en.wikipedia.org/wiki/BibTeX; last accessed on December 10, 2020.
