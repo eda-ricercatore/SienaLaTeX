@@ -78,7 +78,7 @@ A\land B
 
 
 
-
+## BibTeX Notes
 
 
 
@@ -91,15 +91,24 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	from my *BibTeX* database (set of *BibTeX* entries).
 
 
+If these citations/references are not found in this list of references,
+	information about them can be found in my BibTeX database.
++ BLAH...
 
-##	References on the World Wide Web
+
+
+
+##	Resources/References on the World Wide Web
 
 Web pages for help in *LaTeX*:
 + Templates for optimization, or mathematical programming
 	- [LaTeX Templates for Optimization Models](http://www.orcomplete.com/computer/sertalpbilal/latex-templates-for-optimization-models)
-
-
-
+	- \cite{Cay2013}
+	- [My implementation](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/examples/optimization_templates.pdf)
+		* [*LaTeX* source file for my implementation](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/examples/optimization_templates.tex)
+	- [Suggested implementation from John Hammersley, who provided the LaTeX document](https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/examples/from-other-peeps/optimization-templates/main.tex)
+		- I modified the author list to reflect this.
+		- John Hammersley incorporated a suggestion from Vince Knight for typesetting mathematical optimization models in *LaTeX*.
 
 
 
@@ -119,6 +128,7 @@ Publishers and addresses that I commonly encounter:
 + IEEE Press: Piscataway, NJ.
 + IEEE Computer Society Press: Los Alamitos, CA.
 + ACM Press: New York, NY.
+
 
 
 
