@@ -132,7 +132,7 @@ From \cite{Kopka2004}, \S12.2.2, pages 232-233, provides a list of BibTeX fields
 + organization
 	- The sponsoring organization for a **conference or a manual**.
 + pages
-	- A page number or a range of pages, in the form 32,41,58 or 87--101 or 68+. The last form indicates page 68 and following pages. A single hyphen given for a range will be converted by the standard styles to the double hyphen to produce a dash, as ‘87–101’.
+	- A page number or a range of pages, in the form 32,41,58 or 87--101 or 68+. The last form indicates page 68 and following pages. **A single hyphen given for a range will be converted by the standard styles to the double hyphen to produce a dash, as ‘87–101’.**
 + publisher
 	- The publisher’s name.
 + school
@@ -217,7 +217,7 @@ Code snippet from [Carter2017].
 
 
 
-From [valerie2017], the appearance of the "References" section/list can vary between different LaTeX styles (i.e., formats) and customized bibliographic styles (from customized bibliographic style files [WikipediaContributors2020]). Hence, instead of changing my BibTeX database, fix copies of my BibTeX database.
+From [valerie2017], the appearance of the "References" section/list can vary between different LaTeX styles (i.e., formats) and customized bibliography styles (from customized bibliography style files [WikipediaContributors2020]). Hence, instead of changing my BibTeX database, fix copies of my BibTeX database.
 + *bib2bib* is a tool that "provides pretty flexible and reliable ways to filter/extract/expand BibTeX entries" [Daniel2011]
 	- "This (little known) utility is part of the bibtex2html tool suite."
 	- "Note: you have to look for the PDF documentation, the HTML documentation does not discuss bib2bib!"
