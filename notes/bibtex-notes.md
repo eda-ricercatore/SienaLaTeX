@@ -102,7 +102,8 @@
 + chapter
 	- A chapter or section number.
 + crossref
-	- The key of another entry in the database that shares many of the same field entries. See Section 12.2.3. [comment]: <> (14.2.3 in the PDF copy.)
+	- The key of another entry in the database that shares many of the same field entries. See Section 12.2.3.
+		[comment]: <> (14.2.3 in the PDF copy.)
 	- Used for the BibTeX entry type **inproceedings**.
 	- Try to see if this would work for the BibTeX entry types **incollection** and **inbook**.
 + edition
