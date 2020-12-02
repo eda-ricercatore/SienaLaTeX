@@ -161,7 +161,7 @@ Lists, summary tables, and figures of interest:
 
 [comment]: <> (From PDF copy of \cite{Kopka2004}, Tables H.1-H.26 in Section H.2, pages 595-601.)
 
-Kopka2004
+
 
 
 
