@@ -187,7 +187,7 @@ Lists, summary tables, and figures of interest:
 
 ###	Using **crossref**
 
-Use **crossref** for BibTeX entries using the BibTeX entry type **inproceedings** to share information about the conference proceedings without having to copy and paste fields that are commonly shared by articles/papers in conference proceedings [Carter2017] \cite[\S12.2.3, pp. 234]{Kopka2004}. It might not work with BibTeX entry types **inbook** and **incollection** for parts, subsections, sections, and chapters of books; this is not mentioned, and **crossref** is probably not supported for these BibTeX entry types.
+Use **crossref** for BibTeX entries using the BibTeX entry type **inproceedings** to share information about the conference proceedings without having to copy and paste fields that are commonly shared by articles/papers in conference proceedings [Carter2017] \cite[\S12.2.3, pp. 234]{Kopka2004}. It might not work with BibTeX entry types **inbook** and **incollection** for parts, subsections, sections, and chapters of books; this is not specified in BibTeX specifications/references, and **crossref** is probably not supported for these BibTeX entry types.
 
 
 
