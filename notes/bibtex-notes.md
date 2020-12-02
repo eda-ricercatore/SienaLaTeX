@@ -154,11 +154,14 @@
 
 
 Lists, summary tables, and figures of interest:
-+ From \cite{Kopka2004} (hard copy):
++ From \cite{Kopka2004}:
 	- \S12.2.1, pages 230-231 provides a list of BibTeX entry types.
 	- \S12.2.2, pages 232-233 provides a list of BibTeX fields.
 	- From Appendix G, Tables G.1-G.26 (especially Tables G.1-G.18, pages 547-550) in Section G.2, pages 547-553.
-+ From PDF copy of \cite{Kopka2004}, Tables H.1-H.26 in Section H.2, pages 595-601.
+
+[comment]: <> (From PDF copy of \cite{Kopka2004}, Tables H.1-H.26 in Section H.2, pages 595-601.)
+
+Kopka2004
 
 
 

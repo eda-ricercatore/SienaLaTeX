@@ -80,6 +80,10 @@ A\land B
 
 ## BibTeX Notes
 
+See https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/bibtex-notes.md for my *BibTeX* notes.
+
+
+
 
 
 
