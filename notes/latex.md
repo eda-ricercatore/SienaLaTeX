@@ -102,9 +102,6 @@ Web pages for help in *LaTeX*:
 
 
 
-computer
-Operations Research Complete, OR-Complete, OR-Complete:Bethlehem, PA
-Harold S. Mohler Laboratory, 208 W Packer Ave, Bethlehem, PA 18015
 
 
 

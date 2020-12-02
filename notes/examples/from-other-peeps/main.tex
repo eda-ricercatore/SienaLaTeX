@@ -1,0 +1,64 @@
+% Here we show the equation alignment examples from: 
+% http://www.orcomplete.com/quick-tip/sertalpbilal/latex-templates-for-optimization-models
+
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{LaTeX Templates for Optimization Models}
+\author{Sertalp Bilal Çay}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Here we show the equation alignment examples from:\\ \url{http://www.orcomplete.com/quick-tip/sertalpbilal/latex-templates-for-optimization-models}
+\end{abstract}
+
+\section{Array} % Example 1
+
+\begin{equation}
+\begin{array}{rrclcl}
+\displaystyle \min_{x} & \multicolumn{3}{l}{c^T x} \\
+\textrm{s.t.} & A x & \leq & b \\
+&\displaystyle \sum_{i=0}^{n} x_i & = & 1 \\
+& x_j & \geq & 0 & & \forall j \in N \\
+\end{array}
+\end{equation}
+
+\section{Aligned} % Example 2
+
+\begin{equation}
+\begin{aligned}
+& \underset{x}{\text{min}}
+& & c^T x \\
+& \text{s.t.} & &  Ax \leq b_i \\
+& & &  \sum_{i=1}^{n} x_i =1 \\
+& & &  x_j, \; \forall j \in N. \\
+\end{aligned}
+\end{equation}
+
+\section{Matrix} % Example 3
+
+\begin{equation}
+\begin{matrix}
+\displaystyle \min_x & c^T x  \\
+\textrm{s.t.} & A x & \leq & b  \\
+& \displaystyle \sum_{i=1}^{n} x_i & = & 1  \\
+& x_j & \geq & 0 & & \forall j \in N
+\end{matrix}
+\end{equation}
+
+\section{Align} % Example 4
+
+\begin{align*}
+\min_x \quad c^T x \\
+Ax &\leq b \\
+\sum_{i=1}^n x_i &= 1\\
+x_j &\geq 0 \quad \forall j \in N
+\end{align*}
+
+\end{document}
