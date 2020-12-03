@@ -43,7 +43,7 @@ From \cite{Kopka2004}, \S12.2.1, pages 230-231, provides a list of BibTeX entry 
 + ***@mastersthesis***
 	- Entry for a Master's thesis.
 	- required fields: author, title, school, year.
-	- optional fields: type, address, month, note.
+	- optional fields: type, address, month, note, DOI, **howpublished, URL**.
 + ***@misc***
 	- Entry for a work that does not fit under any of the others.
 	- required fields: none.
@@ -51,7 +51,7 @@ From \cite{Kopka2004}, \S12.2.1, pages 230-231, provides a list of BibTeX entry 
 + ***@phdthesis***
 	- Entry for a PhD thesis.
 	- required fields: author, title, school, year.
-	- optional fields: type, address, month, note, **howpublished, URL**.
+	- optional fields: type, address, month, note, DOI, **howpublished, URL**.
 + ***@proceedings***
 	- Entry for conference proceedings.
 	- required fields: title, year.
