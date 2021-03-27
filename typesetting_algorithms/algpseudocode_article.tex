@@ -80,9 +80,12 @@ There are a significant amount of references for helping people to learn \LaTeX 
 
 
 \begin{algorithm}
-\caption{The Bellman-Kalaba algorithm}
+\caption{{\bf The Bellman-Kalaba algorithm}({\it G, u, l, p})}
+{\textbf{Input:} {\it G, u, l, p}} \\
+{\textbf{Output:} Nothing}
 \begin{algorithmic}[1]
 \Procedure {BellmanKalaba}{$G$, $u$, $l$, $p$}
+
 	\ForAll {$v \in V(G)$}
 		\State $l(v) \leftarrow \infty$
 	\EndFor
@@ -101,6 +104,7 @@ There are a significant amount of references for helping people to learn \LaTeX 
 		\State $changed \leftarrow l \not= l?$
 		\State $l \leftarrow l?$
 	\Until{$\neg changed$}
+	\State {\textbf{return} Nothing}
 \EndProcedure
 \Statex
 \Procedure {FindPathBK}{$v$, $u$, $p$}

@@ -53,14 +53,17 @@
 %remove=
 \usepackage[margin=1.5cm,vmargin={1.5cm,2cm}]{geometry}
 % Use the packages needed to typeset algorithms. I can also use the combined ``algorithms'' bundle.
+%	Note that the following packages are incompatible with each other.
+%	+ algorithmic and algpseudocode
+%	+ clrscode3e and algpseudocode
 %remove=\usepackage{others/packages/algorithm}
 %	The packages ``algorithmic'' and ``algpseudocode'' are incompatible with each other.
 %remove=\usepackage{others/packages/algorithmic}
 % The listings package is a source code printer for LaTeX. You can typeset stand alone files as well as listings with an environment similar to verbatim as well as you can print code snippets using a command similar to \verb. Many parameters control the output and if your preferred programming language isn’t already supported, you can make your own definition.
-%remove=\usepackage{others/packages/listings}
+%remove=
+\usepackage{others/packages/listings}
 % Use the ``clrscode3e'' LaTeX package to typeset algorithms like CLRS
-%	\usepackage{/data/others/notes/clrscode3e}
-%\usepackage{/data/others/grappanotes/clrscode3e}
+%	The packages ``clrscode3e'' and ``algpseudocode'' are incompatible with each other.
 %remove=\usepackage{others/packages/clrscode3e}
 %\usepackage{/Applications/apps/comune/SienaLaTeX/rapporto/others/clrscode3e}
 % Use the ``algpseudocode'' LaTeX package to typeset algorithms -- Alternate solution, not preferred

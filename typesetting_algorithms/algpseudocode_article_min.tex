@@ -24,13 +24,16 @@
 \begin{document}
 
 
-
+The {\tt algpseudocode} package does not have commands in its user guide/manual or instructions documentation.
 
 
 \begin{algorithm}
-\caption{The Bellman-Kalaba algorithm}
+\caption{{\bf The Bellman-Kalaba algorithm}({\it G, u, l, p})}
+{\textbf{Input:} {\it G, u, l, p}} \\
+{\textbf{Output:} Nothing}
 \begin{algorithmic}[1]
 \Procedure {BellmanKalaba}{$G$, $u$, $l$, $p$}
+
 	\ForAll {$v \in V(G)$}
 		\State $l(v) \leftarrow \infty$
 	\EndFor
@@ -49,6 +52,7 @@
 		\State $changed \leftarrow l \not= l?$
 		\State $l \leftarrow l?$
 	\Until{$\neg changed$}
+	\State {\textbf{return} Nothing}
 \EndProcedure
 \Statex
 \Procedure {FindPathBK}{$v$, $u$, $p$}
