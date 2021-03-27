@@ -31,9 +31,60 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Commands for using the package for hyperlinks. Includes the package ``url''.
+\usepackage[pdftex,
+	pdftitle={Graphics and Color with LaTeX},
+	pdfauthor={Patrick W Daly},
+	pdfsubject={Importing images and use of color in LaTeX},
+	pdfkeywords={LaTeX, graphics, color},
+	pdfpagemode=UseOutlines,bookmarks, bookmarksopen,
+	pdfstartview=FitH, colorlinks, linkcolor=blue, citecolor=blue, urlcolor=red,
+]{hyperref}
+\hypersetup{colorlinks, linkcolor=blue}
+
+
+% Concatenate adjacent references together when typeset.
+% That is, cite{ref1,ref2,ref3,ref4} can appear as [12-15], instead of [12] [13] [14] [15]
+\usepackage{others/packages/cite}
+
+% The marvosym package (Table 210, page 69) is for Communication Symbols, such as \Email, \fax, \FAX (Preferred), \Letter, \Mobilefone, and \Telefon; it also has the symbol for the Cross to represent Christianity, \Cross (Table 263, pp.80); it also has symbols for checked boxes, \Checkedbox, crossed boxes (boxes marked with a cross), \Crossedbox, bicycles, \Bicycle, clocks, \Clocklogo, the industry, \Industry, taking notes manually with pen/pencil and paper, \Writinghand, coffee, \Coffeecup, providing information or important note, \Info (Table 249, pp.76)... In addition, it has the symbols for the Euro (EU currency), \EUR (OK), \EURdig (OK), \EURtm, \EURcr
+\usepackage{marvosym}
+
+% LaTeX support for Metafont and MetaPost logos.
+\usepackage{mflogo}
+
+% The textcomp package is for Diacritics -- I wanna use the \textacutedbl symbol to represent a double quote (Table 28, pp.17), instead of using the generic ``curly'' double quotes from \LaTeX; however, when this symbol is used, I must force a character space to exist after the symbol by using the backslash followed by a character space. This package also provides the symbol for Copyleft, \textcopyleft, which is not available in LaTeX by default, and provides better looking symbols for: copyright, registered, and trademark (Table 33, pp.18). Also, it provides symbols for: \textcelsius, \textmho, \textmu, \textohm (Table 201, pp.67). It also provides symbols for Genealogical Symbols (Table 253, pp78), such as \textborn, \textdivorced, \textmarried, \textdied, and \textleaf (symbol of a leaf)... Its symbol for the Euro, EU currency, is \texteuro
+\usepackage{textcomp}
+
+% The eurosym package has the symbols for the Euro (EU currency), \geneuro, \geneuronarrow, \geneurowide, \officialeuro (GOOD)
+\usepackage{eurosym}
+
+% For better typesetting of mathematical expressions, from the American Mathematical Society (AMS).
+\usepackage{amsmath}
+% For better typesetting of mathematical expressions, from the American Mathematical Society (AMS). This package includes mathematical symbols for the ``amsmath'' package.
+\usepackage{amssymb}
+% For better typesetting of mathematical proofs (for theorems and colloraries), from the American Mathematical Society (AMS).
+\usepackage{amsthm}
+%	Create definitions for new theorems, axioms, colloraries.
+	\newtheorem{theorem}{Theorem}[chapter]
+	\newtheorem{axiom}{Axiom}[chapter]
+	\newtheorem{corollary}{Corollary}[chapter]
+	\newtheorem{lemma}{Lemma}[chapter]
+	\newtheorem{Rule}{Rule}[chapter]
+	\newtheorem{law}{Law}[chapter]
+	\newtheorem{principle}{Principle}[chapter]
+% To change the style of newly defined theorems.
+%		\usepackage{theorem}
+
+
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	File containing the LaTeX preamble.
-\input{./others/preamble_clean}
+%\input{./others/preamble_clean}
 %	Enable the use of right-sided cases.
 %\usepackage{others/packages/mathtools}
 \usepackage{./others/packages/mathtools}
@@ -46,9 +97,14 @@
 %\usepackage{listings}
 %	+ For the algorithmicx package, do not use: \usepackage{algorithmicx}
 %		- Instead, import the package: algpseudocode.
-%\usepackage{./others/packages/algorithm}
+%\usepackage{algpseudocode}
 %\usepackage{./others/packages/algorithmicx}
-%\usepackage{./others/packages/algpseudocode}
+\usepackage{./others/packages/algorithm}
+\usepackage[compatible]{./others/packages/algpseudocode}
+
+% To define multiple floats (figures and tables), with individual captions and labels, within one environment.
+\usepackage{others/packages/subfig}
+
 %	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 %	I have problems installing this LaTeX package, via the following commands.
 %
@@ -209,7 +265,7 @@ More stuff to be included.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Typesetting Algorithms
-\input{./algor/algorithms}
+\input{./algor/algorithms_algorithmicx}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
