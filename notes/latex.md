@@ -14,6 +14,11 @@ When I include a *BibTeX* database/file for using *BibTeX* with *LaTeX*, I can
 
 
 
+###	Use of Greek Letters
+
+Greek letters can by typeset with the *LaTeX* "Math mode". Usage of Greek letters with diacritics (or diacritical marks, or accents) need to use *LaTeX* commands for diacritics in the *LaTeX* "Math mode", rather than *LaTeX* commands for diacritics in the *LaTeX* "Text mode" \cite{Pakin2008,Kopka2004}.
+
+
 
 
 ###	In-Text Citations

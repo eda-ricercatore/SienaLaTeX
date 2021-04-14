@@ -108,7 +108,7 @@ From \cite{Kopka2004}, \S12.2.2, pages 232-233, provides a list of BibTeX fields
 + chapter
 	- A chapter or section number.
 + crossref
-	- The key of another entry in the database that shares many of the same field entries. See Section 12.2.3.
+	- The key of another entry in the database that shares many of the same field entries. See Section 12.2.3 (14.2.3 in the PDF copy).
 	- Used for the BibTeX entry type **inproceedings**.
 	- Try to see if this would work for the BibTeX entry types **incollection** and **inbook**.
 + edition
@@ -165,10 +165,13 @@ From \cite{Kopka2004}, \S12.2.2, pages 232-233, provides a list of BibTeX fields
 
 
 Lists, summary tables, and figures of interest:
-+ From \cite{Kopka2004}:
++ From \cite{Kopka2004} (hard copy):
 	- \S12.2.1, pages 230-231 provides a list of BibTeX entry types.
 	- \S12.2.2, pages 232-233 provides a list of BibTeX fields.
 	- From Appendix G, Tables G.1-G.26 (especially Tables G.1-G.18, pages 547-550) in Section G.2, pages 547-553.
++ From PDF copy of \cite{Kopka2004}, Tables H.1-H.26 in Section H.2, pages 595-601.
+
+
 
 [comment]: <> (From PDF copy of \cite{Kopka2004}, Tables H.1-H.26 in Section H.2, pages 595-601.)
 
@@ -232,6 +235,15 @@ From [valerie2017], the appearance of the "References" section/list can vary bet
 
 
 
+
+###	Dealing with Hidden Characters
+
+
+When copying (and pasting) text from a document or a Web page, non-ASCII hidden characters may be accidentally copied from the source (document or Web page) to the BibTeX database. Consequently, this can cause command-line utilities for UNIX-like operating systems, such as *grep*, to fail to recognize the BibTeX database as a text file. While some text editors or integrated development environments (IDEs) have features that highlight or indicate such non-ASCII hidden characters, they are not effective for finding/detecting these characters in large text files (BibTeX databases in this case) without knowing what these characters are. If these characters are known, the search feature of these text editors or IDEs can find and delete these non-ASCII hidden characters.
+
+An alternative is to develop and use a script to concatenate all the BibTeX keys (of a BibTeX database) in a *\cite* LaTeX command to automatically generate a listing of the references in a particular BibTeX style of your choice. This results in the LaTeX and BibTeX interpreters parsing and processing your LaTeX and BibTeX sources. Hence, this process should abruptly pause your LaTeX and BibTeX interpretation processes to warn you of the syntax errors due to these non-ASCII hidden characters.
+
+In addition, note that corruption in memory subsystems or storage devices (such as a solid-state drives) and data transfer between computers can result in corrupting text files to produce non-ASCII hidden characters in these files.
 
 
 
