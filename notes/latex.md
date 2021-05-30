@@ -81,6 +81,18 @@ A\land B
 
 
 
+##	Date and Time Formats
+
+If necessary, use \cite{Harders2010} to modify the date and time format.
+
+
+
+
+
+
+
+
+
 
 
 ## BibTeX Notes
@@ -121,7 +133,20 @@ Web pages for help in *LaTeX*:
 
 
 
+##	References from My BibTeX Database
 
+
+
+	@misc{Harders2010,
+		Address = {Heidelberg, Germany},
+		Author = {Harald Harders},
+		Howpublished = {Available online from {\it Comprehensive {\TeX}\ Archive Network: Packages} as Version 2.28 at: \url{https://www.ctan.org/pkg/isodate}; May 29, 2021 was the last accessed date},
+		Keywords = {LaTeX packages, LaTeX packages - date & time processing},
+		Month = {January 3},
+		Publisher = {Comprehensive {\TeX}\ Archive Network},
+		Title = {isodate -- Tune the output format of dates according to language},
+		Url = {https://www.ctan.org/pkg/isodate},
+		Year = {2010}}
 
 
 
