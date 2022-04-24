@@ -81,7 +81,10 @@ A\land B
 ###	Common Typesetting Errors
 
 
+From \cite{Anderson2012}, the encountered error is due to extremely long lines (>= 200,000 characters long).
 
+	Unable to read an entire line---bufsize=200000.
+	Please increase buf_size in texmf.cnf.
 
 
 
