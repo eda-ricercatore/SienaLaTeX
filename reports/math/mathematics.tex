@@ -136,8 +136,11 @@ Labeling an arrow: $\xrightarrow{ewq}$. \\
 
 Symbols for mathematical logic: \vspace{-0.3cm}
 \begin{enumerate} \itemsep -4pt
-\item $\models$, entails
-\item $\vdash$, infers/proves/concludes
+\item $\models$ or $\vDash$, entails
+\item $\vdash$, infers/proves/concludes: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item E.g., used in sequents (general kind of assertion), such as $A_{1}, \dots., A_{m} \vdash B_{1}, \dots, B_{n}$, where the conditional formulas $A_{i}$ are the antecedents and the asserted formulas $B_{j}$ are the succedents or consequents.
+	\end{enumerate}
 \item $\Rightarrow$, or $\Longrightarrow$, implies
 \item $\land$ or $\bigwedge$, conjunction, AND: \vspace{-0.3cm}
 	\begin{enumerate} \itemsep -2pt
@@ -149,9 +152,19 @@ Symbols for mathematical logic: \vspace{-0.3cm}
 	\end{enumerate}
 \item $p \rightarrow q$: \vspace{-0.3cm}
 	\begin{enumerate} \itemsep -2pt
+	\item $p$ is the antecedent, and $q$ is the consequent: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item $p$ is also called the protasis
+		\end{enumerate}
 	\item material implication, or simply implication, if $p$ \dots then $q$, IMPLY: \vspace{-0.2cm}
 		\begin{enumerate} \itemsep -2pt
 		\item conditional statement
+		\item or $\neg p \lor q$: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item By commutativity, we have: $q \lor \neg p$.
+			\item By double negation, we have: $\neg \neg q \lor \neg p$.
+			\end{enumerate}
+		\item or, $\neg q \rightarrow \neg p$
 		\item contrapositive statement: \vspace{-0.1cm}
 			\begin{enumerate} \itemsep -1pt
 			\item $\neg q \longrightarrow \neg p$
@@ -172,28 +185,39 @@ Symbols for mathematical logic: \vspace{-0.3cm}
 			\item contradicts the implication
 			\end{enumerate}
 		\end{enumerate}
-	\item $p$ is the antecedent, and $q$ is the consequent
 	\item logical connectives include: \vspace{-0.2cm}
 		\begin{enumerate} \itemsep -2pt
-		\item $\neg$, negation, NOT, inverter
-		\item $\land$
-		\item $\lor$
-		\item $\rightarrow$
-		\item $\leftrightarrow$, $\longleftrightarrow$, biconditional, if and only if, XNOR
-		\item $\leftarrow$, $\longleftarrow$, converse implication, \dots if: \vspace{-0.1cm}
+		\item $\neg p$, negation, NOT, inverter
+		\item $p \land q$
+		\item $p \lor q$
+		\item $p \rightarrow q$
+		\item $p \leftrightarrow q$, $p \longleftrightarrow q$, biconditional, $p$ if and only if $q$, XNOR: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item $(p \rightarrow q) \land (q \rightarrow p)$ = $(p \land q) \lor (\neg p \land \neg q)$
+			\item logic equality
+			\item logical biconditional
+			\item material biconditional
+			\end{enumerate}
+		\item $p \leftarrow q$, $p \longleftarrow q$, converse implication, \dots if: \vspace{-0.1cm}
 			\begin{enumerate} \itemsep -1pt
 			\item $p \leftarrow q$ = $q \rightarrow p$.
 			\item if $q$ then $p$
 			\item reversal of both statements
 			\end{enumerate}
-		\item $\uparrow$, alternative denial, not both, NAND
-		\item $\downarrow$, joint denial, neither\dots nor, NOR
+		\item $p \uparrow q$, alternative denial, not both, NAND: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item or $\neg (p \land q)$, or $\neg p \lor \neg q$
+			\end{enumerate}
+		\item $p \downarrow q$, joint denial, neither\dots nor, NOR: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item or $\neg (p \lor q) \land (\neg p \land \neg q)$
+			\end{enumerate}
 		\item $\rightarrow/$, material nonimplication, NIMPLY
 		\end{enumerate}
 	\end{enumerate}
 \end{enumerate}
 
-
+Note that by transposition, or valid rule of replacement, $(p \rightarrow q) \Longleftrightarrow (\neg q \rightarrow \neg p)$. Alternatively, $(p \rightarrow q) \vdash (\neg q \rightarrow \neg p)$ or $\frac{p \rightarrow q}{\therefore\ \neg q \rightarrow \neg p}$.
 
 
 
