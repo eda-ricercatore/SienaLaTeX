@@ -81,7 +81,11 @@ clean:
 	rm -rf *.out
 	rm -rf *.synctex.gz
 	rm -rf *.toc
-
+	rm -rf algor/*.log
+	rm -rf data_visualization/*.log
+	rm -rf latex-text/*.log
+	rm -rf math/*.log
+	rm -rf others/*.log
 
 
 
