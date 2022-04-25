@@ -72,7 +72,7 @@ Table of common symbols for mathematical logic
 Examples:
 + p \rightarrow q : 
 
-A\lor B is true if {\displaystyle A}A is true, or if {\displaystyle B}B is true, or if both {\displaystyle A}A and {\displaystyle B}B are true.
+A\lor B is true if {\displaystyle A} is true, or if {\displaystyle B} is true, or if both {\displaystyle A} and {\displaystyle B} are true.
 A\land B 
 
 
