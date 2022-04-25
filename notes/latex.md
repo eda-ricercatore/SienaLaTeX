@@ -93,8 +93,6 @@ Attempted solutions to resolve this:
 
 
 
-
-
 ##	Date and Time Formats
 
 If necessary, use \cite{Harders2010} to modify the date and time format.
