@@ -80,6 +80,7 @@ clean:
 	rm -rf *.nlo
 	rm -rf *.out
 	rm -rf *.synctex.gz
+	rm -rf *.synctex*
 	rm -rf *.toc
 	rm -rf algor/*.log
 	rm -rf data_visualization/*.log
