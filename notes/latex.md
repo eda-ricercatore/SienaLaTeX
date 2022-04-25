@@ -81,10 +81,14 @@ A\land B
 ###	Common Typesetting Errors
 
 
-From \cite{Anderson2012}, the encountered error is due to extremely long lines (>= 200,000 characters long).
+From \cite{Anderson2012}, the following error is encountered when extremely long lines (>= 200,000 characters long) exist in the LaTeX source document.
 
 	Unable to read an entire line---bufsize=200000.
 	Please increase buf_size in texmf.cnf.
+
+
+Attempted solutions to resolve this:
++ Find my [texmf.cnf](/usr/local/texlive/2021/texmf.cnf) file, and increase the value of the bufsize variable \cite{Anderson2012}; `bufsize=9999999`.
 
 
 
