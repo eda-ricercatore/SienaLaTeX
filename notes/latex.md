@@ -56,7 +56,7 @@ Colors and fonts that I use.
 
 
 
-Table of common symbols
+Table of common symbols for mathematical logic
 
 | Symbol Name | Symbol  |
 |-------------|---------|
