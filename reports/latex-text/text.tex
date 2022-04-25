@@ -111,15 +111,23 @@ An enumeration of items: \vspace{-0.3cm}
 
 To change the style for an enumerated list, try: {\tt $\backslash$begin\{enumerate\}[new\_style]} \cite{Kopka2004}.
 
-For example, to use Roman numerals instead of the standard numbering, try: \vspace{-0.3cm}
-\begin{enumerate} \itemsep -4pt
-\item[2.1:] My item 1
-\item My item 2
-\item My item 3
-\item My item 4
-\item My item 5
-\item My item 6
-\item My item 7
+
+%\renewcommand{\labelenumii}{\Alph{enumi}.\arabic{enumii}}
+
+For example, to use Roman numerals, period separated by Arabic numerals, enclosed in round brackets, instead of the standard numbering, try \cite{Klement2016}: \vspace{-0.3cm}
+%\begin{enumerate}[\renewcommand{\labelenumii}{\Alph{enumi}.\arabic{enumii}}] \itemsep -4pt
+\begin{enumerate}[label=(\Alph*.\arabic*)] \itemsep -4pt
+\item My item 1.
+\item My item 2.
+\item My item 3.: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item This is the first case.
+	\item This is the second case.
+	\end{enumerate}
+\item My item 4.
+\item My item 5.
+\item My item 6.
+\item My item 7.
 \end{enumerate}
 
 

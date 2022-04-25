@@ -89,6 +89,8 @@ From \cite{Anderson2012}, the following error is encountered when extremely long
 
 Attempted solutions to resolve this:
 + Find my [texmf.cnf](/usr/local/texlive/2021/texmf.cnf) file, and increase the value of the bufsize variable \cite{Anderson2012}; `bufsize=9999999`.
+	- This did not work for me, probably because the new assigned valued is too large.
+		Or, 200000 is already too large to be supported by the LaTeX/BibTeX software workflow.
 
 
 
