@@ -32,7 +32,7 @@ For in-text citations, use:
 
 
 
-### Common Colors and Fonts that I Use
+## Common Colors and Fonts that I Use
 
 Colors and fonts that I use.
 + red
@@ -48,7 +48,7 @@ Colors and fonts that I use.
 
 
 
-####	Changing to Uppercase and Lowercase
+###	Changing to Uppercase and Lowercase
 
 
 If text is required to be in the uppercase or capitals, it can still be written as normal, but use the *LaTeX* command `\uppercase` to turn the text within the braces or curly brackets into uppercase. An example is provided as follows: `\uppercase{This is an Example of Text Turned into UpperCase}` \cite[\S8.2.4, pp. 239]{Syropoulos2003}. Another method is to use the *LaTeX* command `\MakeUppercase` \cite[\S Appendix G.1, pp. 512]{Kopka2004}, and an example is: `\MakeUppercase{Another Example of Text Turned into UpperCase}` \cite[\S6.8, pp. 47; \S23.2, pp. 212--213]{Greenwade2022} \cite[\S2.2.2, pp. 31; \S3.1.5, pp. 85--87; \S3.1.7, pp. 91; \S4.4.2, pp. 229; \S9.4.1, pp. 571]{Mittelbach2004} \cite[\S3.5, pp. 60]{Syropoulos2003} \cite[\S5, Changing Letter Case]{Ying20XY}.
@@ -63,7 +63,7 @@ Their dual *LaTeX* commands are: `\lowercase` and `\MakeLowercase` \cite[\S Appe
 
 
 
-###	Common Terms/Symbols that I Get Confused About 
+##	Common Terms/Symbols that I Get Confused About 
 
 
 
@@ -127,6 +127,32 @@ If necessary, use \cite{Harders2010} to modify the date and time format.
 
 
 
+##	Missing LaTeX Packages
+
+
+To install LaTeX packages, use the *tlmgr* *LaTeX* package management system [Semrick2010].
+
+Use the following command to install a *LaTeX* package [Semrick2010].
+
+	tlmgr install packagename
+
+
+To update *tlmgr*, try both of the following commands in sequence [Semrick2010].
+
+	tlmgr update --self
+	tlmgr update --all
+
+
+
+
+
+
+
+
+
+
+
+
 ## BibTeX Notes
 
 See https://github.com/eda-ricercatore/SienaLaTeX/blob/master/notes/bibtex-notes.md for my *BibTeX* notes.
@@ -179,6 +205,27 @@ Web pages for help in *LaTeX*:
 		Title = {isodate -- Tune the output format of dates according to language},
 		Url = {https://www.ctan.org/pkg/isodate},
 		Year = {2010}}
+
+
+	@misc{Semrick2010,
+		Address = {New York, {NY}},
+		Author = {Mica Semrick},
+		Howpublished = {Available online from {\it Stack Exchange Inc.: {TeX - LaTeX} Stack Exchange: Questions} at: \url{https://tex.stackexchange.com/a/5106} and \url{https://tex.stackexchange.com/questions/5085/how-to-install-a-latex-package-in-macos-texlive/5106#5106}; April 30, 2023 was the last accessed date},
+		Keywords = {LaTeX package management systems},
+		Month = {November 8},
+		Publisher = {Stack Exchange Inc.},
+		School = {},
+		Title = {Answer to `How to install a latex package in {MacOS TeXLive}?'},
+		Url = {https://tex.stackexchange.com/a/5106},
+		Year = {2010},
+		Annote = {tlmgr install packagename
+			To update tlmgr, try both of the following commands in sequence.
+			tlmgr update --self
+			tlmgr update --all}}
+
+
+
+
 
 
 
