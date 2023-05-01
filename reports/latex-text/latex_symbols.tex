@@ -31,6 +31,30 @@ Symbols used to represent \LaTeX\ and related computer languages/technologies an
 \item \MF
 \item \texttrademark
 \item \textregistered
+\item To use the registered symbol as a superscript, avoid doing this in the math mode or in mathematical environments, since this will cause the registered symbol not to typeset properly. The following sequence of {\tt $\backslash$textsuperscript}{\tt $\backslash$textregistered} \LaTeX\ commands should be used instead, such as: {\it quectoSAT}\textsuperscript\textregistered\ solver. \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Use a backslash after it, just like the following symbols that can cause naturally occuring character space to disappear: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item \textsuperscript\textregistered\ needs space\dots Compared with \textsuperscript\textregistered\ needs space. \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item nanoPlace II\textsuperscript\textregistered is far superior compared with picoPlace VI\textsuperscript\textregistered for detailed placement (without spacing).
+			\item nanoPlace II\textsuperscript\textregistered\ is far superior compared with picoPlace VI\textsuperscript\textregistered\ for detailed placement (with spacing).
+			\item When in doubt if a space is need, since this example does not indicate a need, use a character space anyway. It does not change the spacing by much.
+			\end{enumerate}
+		\item \LaTeX\ needs space\dots Compared with \LaTeX needs space.
+		\item \LaTeXe\ needs space\dots Compared with \LaTeXe needs space.
+		\item {\sc Bib}\TeX\ needs space\dots Compared with {\sc Bib}\TeX needs space.
+		\item B{\scriptsize IB}\TeX\ needs space\dots Compared with B{\scriptsize IB}\TeX needs space.
+		\item \MF\ needs space\dots Compared with \MF needs space.
+		\item \MP\ needs space\dots Compared with \MP needs space.
+		\item \texttrademark\ needs space\dots Compared with \texttrademark needs space.
+		\item \textregistered\ needs space\dots Compared with \textregistered needs space.
+		\item \copyright\ needs space\dots Compared with \copyright needs space.
+		\item \textcopyleft\ needs space\dots Compared with \textcopyleft needs space.
+		\item \AmS-\LaTeX\ needs space\dots Compared with \AmS-\LaTeX needs space.
+		\item \officialeuro\ needs space\dots Compared with \officialeuro needs space.
+		\end{enumerate}
+	\end{enumerate}
 \item \copyright
 \item \textcopyleft
 \end{enumerate}
