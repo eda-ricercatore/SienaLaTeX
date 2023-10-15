@@ -19,7 +19,7 @@
 
 #	Definition of macro flags...
 MAINSRC=	zhiyang_proj_presentation
-PDFLATEX=	/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex
+PDFLATEX=	pdflatex
 PDFSIMPLE=	pdflatex
 BIBTEX=		bibtex
 

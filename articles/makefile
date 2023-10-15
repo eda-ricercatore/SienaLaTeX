@@ -18,7 +18,7 @@
 #	Definition of macro flags...
 MAINSRC=		articles
 CLEANSRC=		articles_clean
-PDFLATEX=		/usr/local/texlive/2019/bin/x86_64-darwin/pdflatex
+PDFLATEX=		pdflatex
 LATEXSIMPLE=	pdflatex
 BIBTEX=			bibtex
 
