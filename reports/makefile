@@ -43,22 +43,22 @@ latex:
 	$(PDFLATEX)		$(MAINSRC)
 
 
-simple:
-	@echo + + + + + + + + + + + + + + + + + + + + + + + + + + +
-	@echo
-	@echo
-	@echo	"==		Typeset LaTeX source files for the 1st time."
-	$(LATEXLIB)		$(CLEANSRC)
-	$(BIBTEX)		$(CLEANSRC)
-	@echo
-	@echo
-	@echo	"==		Typeset LaTeX source files for the 2nd time."
-	$(LATEXLIB)		$(CLEANSRC)
-	$(BIBTEX)		$(CLEANSRC)
-	@echo
-	@echo
-	@echo	"==		Typeset LaTeX source files for the 3rd time."
-	$(LATEXLIB)		$(CLEANSRC)
+#	simple:
+#		@echo + + + + + + + + + + + + + + + + + + + + + + + + + + +
+#		@echo
+#		@echo
+#		@echo	"==		Typeset LaTeX source files for the 1st time."
+#		$(LATEXLIB)		$(CLEANSRC)
+#		$(BIBTEX)		$(CLEANSRC)
+#		@echo
+#		@echo
+#		@echo	"==		Typeset LaTeX source files for the 2nd time."
+#		$(LATEXLIB)		$(CLEANSRC)
+#		$(BIBTEX)		$(CLEANSRC)
+#		@echo
+#		@echo
+#		@echo	"==		Typeset LaTeX source files for the 3rd time."
+#		$(LATEXLIB)		$(CLEANSRC)
 
 
 
