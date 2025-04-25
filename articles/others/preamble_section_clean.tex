@@ -53,11 +53,12 @@
 \usepackage{others/packages/algorithm}
 \usepackage{others/packages/algorithmic}
 % The listings package is a source code printer for LaTeX. You can typeset stand alone files as well as listings with an environment similar to verbatim as well as you can print code snippets using a command similar to \verb. Many parameters control the output and if your preferred programming language isn’t already supported, you can make your own definition.
-\usepackage{others/packages/listings}
+%\usepackage{others/packages/listings}
+\usepackage{listings}
 % Use the ``clrscode3e'' LaTeX package to typeset algorithms like CLRS
 %	\usepackage{/data/others/notes/clrscode3e}
 %\usepackage{/data/others/grappanotes/clrscode3e}
-\usepackage{others/packages/clrscode3e}
+\usepackage{clrscode3e}
 %\usepackage{/Applications/apps/comune/SienaLaTeX/rapporto/others/clrscode3e}
 % Use the ``algpseudocode'' LaTeX package to typeset algorithms -- Alternate solution, not preferred
 %\usepackage{algpseudocode}
@@ -66,7 +67,7 @@
 %\usepackage{algorithmicx}
 %\usepackage{program}
 %	To check for syntax errors in my LaTeX document.
-\RequirePackage[l2tabu, orthodox]{others/packages/nag}
+%\RequirePackage[l2tabu, orthodox]{nag}
 
 % Concatenate adjacent references together when typeset.
 % That is, cite{ref1,ref2,ref3,ref4} can appear as [12-15], instead of [12] [13] [14] [15]
