@@ -29,6 +29,20 @@
 %\setbeamercolor{block title alerted}{fg=white,bg=yellow}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Information indicating Copyright information for Creative Commons license.
+\usepackage{ccicons}
+\usepackage{cclicenses}
+\usepackage[
+    type={CC},
+    modifier={by-nc-nd},
+    version={4.0},
+]{doclicense}
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Table of Contents
 \AtBeginSection[]
@@ -79,13 +93,26 @@
 %	For setting the background picture.
 }
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Copyright Information
+
+
+\begin{frame}
+	\begin{center} 
+	Copyright \copyright\ \the\year{} by Zhiyang Ong
+	\end{center}
+	\doclicenseThis
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Section One
 \section{Section One}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Acknowledgments
-%	Slide 2
+%	Slide 3
 
 \begin{frame}
 	\frametitle{Acknowledgments}
@@ -107,10 +134,10 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 3
+%	Slide 4
 \begin{frame}
-	\frametitle{Slide Title 3}
-	\framesubtitle{Slide Subtitle 3}
+	\frametitle{Slide Title 4}
+	\framesubtitle{Slide Subtitle 4}
 	
 	\begin{columns}[t]			% Contents are top vertically aligned
 		\begin{column}[T]{5cm}	% Each column can also be its own environment
@@ -137,10 +164,10 @@
 \subsection{Subsection 2.2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 4
+%	Slide 5
 \begin{frame}
-	\frametitle{Slide Title 4}
-	\framesubtitle{Slide Subtitle 4.}
+	\frametitle{Slide Title 5}
+	\framesubtitle{Slide Subtitle 5.}
 	
 	Statement 1 \cite{vanDongen2012}. \\
 	\ \\
@@ -154,10 +181,10 @@
 \section{Section 3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 5
+%	Slide 6
 \begin{frame}
-	\frametitle{Slide Title 5}
-	\framesubtitle{Slide Subtitle 5.}
+	\frametitle{Slide Title 6}
+	\framesubtitle{Slide Subtitle 6.}
 	
 	\begin{figure}
 		\centering
@@ -170,7 +197,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 6
+%	Slide 7
 %	References
 {\linespread{1}
 \begin{frame}
